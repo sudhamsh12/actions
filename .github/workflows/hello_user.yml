@@ -1,0 +1,13 @@
+name: Hello World
+
+on:
+  pull_request:
+
+jobs:
+  print-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello user can i crack a joke :)
+        run: echo "How many open source developers does it take to change a light bulb? None. They just fork the room and work in the dark😂😂"
+   
